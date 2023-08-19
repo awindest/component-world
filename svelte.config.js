@@ -10,7 +10,7 @@ const config = {
 	},
 	preprocess: preprocessThrelte(),
 	paths: {
-		base: dev ? '' : '/Component_World'
+		base: dev ? '' : '/component-world'
 	}
 };
 
