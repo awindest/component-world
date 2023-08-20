@@ -45,9 +45,10 @@
 		box-shadow: -2px 0px 6px -1px rgba(0, 0, 0, 0.1);
 		background: rgba(255, 255, 255, 0.25);
 		backdrop-filter: blur(20px);
+		overflow: auto;
 	}
 	div {
-		font-size: 24px;
+		font-size: 20px;
 		color: #555353;
 		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	}
