@@ -1,7 +1,9 @@
 <script>
-  import { Canvas } from '@threlte/core'
-  import Scene from '../components/Scene.svelte'
-  import IndestLabs from '../components/IndestLabs.svelte'
+	import { Canvas } from '@threlte/core';
+	import Scene from '../components/Scene.svelte';
+	import IndestLabs from '../components/IndestLabs.svelte';
+	import Hamburger from '../components/Hamburger.svelte';
+	let open = false;
 </script>
 
 <div class="wrapper">
@@ -10,6 +12,8 @@
 	</Canvas>
 </div>
 <IndestLabs />
+
+<Hamburger bind:open />
 
 <style>
 	.wrapper {
